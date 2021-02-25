@@ -1,0 +1,42 @@
+.alert{
+    box-shadow: 1px 29px 11px 7px rgb(0 0 0 / 40%);
+    color: white;
+    height: 7vh;
+    right: 22px;
+    position: fixed;
+    bottom: 6px;
+    background: #43a047;
+    width: 17vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    z-index: 100;
+    animation-name: positionAnimation;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+}
+.alert.hidden{
+    display: none;
+}
+.alert-msg{
+    flex: 4;
+}
+
+.alert-button{
+    flex: 1;
+    text-align: center;
+        font-size: 0.7rem;
+}
+.alert span:hover{
+    cursor: pointer;
+}
+@keyframes positionAnimation {
+    from {
+      transform: translateX(160%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }

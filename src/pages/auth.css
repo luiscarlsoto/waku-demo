@@ -1,0 +1,48 @@
+*{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+body{
+    background-color: #fafafa;
+
+}
+.title{
+    padding-bottom: 20px;
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-fb{
+    cursor: pointer;
+    border: none;
+    /* text-decoration: none; */
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 11px;
+    outline: none;
+    /* padding: 16px; */
+    background-color: #2b57bb;
+    color: #ffffff;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+button.btn-fb:hover {
+    border: 1px solid #2b57bb;
+    background-color: #4674dc;
+}
+.login-box{
+    color: white;
+    background-color: #1b1b1bd6;
+    height: 401px;
+    width: 350px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.login-box img{
+    width: 50%;
+    padding-top: 51px;
+}

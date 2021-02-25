@@ -1,0 +1,91 @@
+
+.search-opc{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+.search-opc input{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: solid 1.3px rgb(255 255 255);
+    background-color: rgba(175, 23, 23, 0);
+    transition: width .35s ease-in-out;
+    width: 150px;
+        
+
+}
+.search-opc select{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color:rgba(175, 23, 23, 0);
+    border: none;
+    border-bottom: solid 1.3px rgb(255 255 255);
+    margin-left: 20px;
+
+}
+.search-opc select option{ 
+    font-weight: bold;
+    color: black;
+}
+.search-opc select:focus{
+    outline: none;
+}
+.search-opc select:hover{
+    cursor: pointer;
+
+}
+.search-opc input::placeholder{
+    color: rgb(255, 255, 255);
+    background-color:rgba(175, 23, 23, 0);
+}
+.search-opc input:focus{
+    border-bottom: solid 2px rgb(255, 255, 255);
+    outline: none;
+    width: 300px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@media only screen and (min-width: 500px) {
+    .container{
+        grid-template-columns: repeat(1, 0fr);
+
+    }
+    
+  }
+  @media only screen and (min-width: 900px) {
+    .container{
+        grid-template-columns: repeat(2, 0fr);
+
+    }
+    
+  }
+  @media only screen and (min-width: 1110px) {
+    .container{
+        grid-template-columns: repeat(3, 0fr);
+
+    }
+    
+  }
