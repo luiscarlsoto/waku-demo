@@ -6,7 +6,7 @@ import './Navbar.css'
 import profile from '../../assets/profile.jpg'
 
 const Navbar = () => {
-    // const [user, setUser] = useState("")
+    const [user, setUser] = useState("")
     const getUserd = async () =>{
        const response = await getUser()
        console.log() 
