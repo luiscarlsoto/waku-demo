@@ -84,7 +84,7 @@ const List = () => {
           </div> 
             <div className="container">
              {loading && <Loading/> }
-                {!search.length & data ==! undefined ?
+                {!search.length & data ===! undefined ?
                   data.map((item) => (
                     <GameCard {...item} listGames={listGames} url={`${steamURL}/${item.steamAppID}`}
                     picture={`https://steamcdn-a.akamaihd.net/steam/apps/${item.steamAppID}/header.jpg`}/>
