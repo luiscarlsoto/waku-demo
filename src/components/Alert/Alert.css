@@ -1,12 +1,12 @@
 .alert{
     box-shadow: 1px 29px 11px 7px rgb(0 0 0 / 40%);
-    color: white;
-    height: 7vh;
+    color: #fff;
+    height: 6vh;
     right: 22px;
     position: fixed;
     bottom: 6px;
     background: #43a047;
-    width: 20rem;
+    width: 28vh;
     border-radius: 10px;
     display: flex;
     align-items: center;
