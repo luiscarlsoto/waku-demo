@@ -1,4 +1,5 @@
 .alert{
+    padding: 0 4rem;
     box-shadow: 1px 29px 11px 7px rgb(0 0 0 / 40%);
     color: #fff;
     height: 6vh;
@@ -6,7 +7,6 @@
     position: fixed;
     bottom: 6px;
     background: #43a047;
-    width: 28vh;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -21,6 +21,7 @@
     display: none;
 }
 .alert-msg{
+    font-size: 2vh;
     flex: 4;
 }
 
