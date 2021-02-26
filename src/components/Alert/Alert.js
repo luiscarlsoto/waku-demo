@@ -8,12 +8,12 @@ const Alert = () => {
     }
     return (
         <div>
-            <div className={alert ? "alert" : "alert hidden" }>
+            <div onClick={hiddeAlert} className={alert ? "alert" : "alert hidden" }>
                 <div className="alert-msg">
                      ⚠ This is a demo version! 
                 </div>
                 <div className="alert-button">
-                        <span onClick={hiddeAlert}>X</span>
+                        <span >X</span>
                 </div>
             </div>
         </div>

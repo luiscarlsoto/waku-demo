@@ -72,7 +72,7 @@ const List = () => {
 
 
     return (
-          <>
+          <div>
            <div className="search-opc">
             <input placeholder="Search here..." onChange={(e) => setSearch(e.target.value.toLocaleLowerCase())} type="text" />
             <select onChange={(e) => listGames ? handlerSortGames(e.target.value) : handlerSortDeals(e.target.value)}>
@@ -95,7 +95,7 @@ const List = () => {
                       ))
                   }
               </div>
-            </>
+          </div>
     )
 }
 
