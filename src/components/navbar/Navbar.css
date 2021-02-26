@@ -2,7 +2,7 @@
     position: fixed;
     background-color: rgba(26,26,26,.9);
     width: 100%;
-    height: 8%;
+    height: 6vh;
     display: flex;
     align-items: center;
 }
