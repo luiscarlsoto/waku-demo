@@ -26,7 +26,7 @@ const Navbar = () => {
                 <div><Link style={{color: !active ? "rgb(204, 40, 219)" : "rgb(177, 175, 175)"}} to="/deals">Deals</Link></div>
             </div>
             <div className="navBar-profile">
-                <div className="profile-name">User name</div>
+                <div className="profile-name">Username</div>
                 <div>
                 <div className="profile-img" style={{backgroundImage:`url(${profile})`}}>
                 </div>
